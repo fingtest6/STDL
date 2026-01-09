@@ -154,7 +154,7 @@ const config = {
               },
               {
                 label: '其他',
-                to: '/other/events/intro',
+                to: '/other/事件/intro',
               },
               {
                 label: '免责声明',
