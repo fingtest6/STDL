@@ -30,8 +30,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'zh-Hans',
+    locales: ['zh-Hans'],
   },
 
   presets: [
@@ -44,19 +44,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: false,
-          feedOptions: {
-            type: ['rss', 'atom'],
-            xslt: false,
-          },
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
+            'https://github.com/fingtest6/STDL/blob/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -72,7 +60,7 @@ const config = {
         path: 'logs',
         routeBasePath: 'logs',
         sidebarPath: './sidebarslogs.js',
-        // 其他选项
+        editUrl: 'https://github.com/fingtest6/STDL/blob/main/',
       },
     ],
     [
@@ -82,7 +70,7 @@ const config = {
         path: 'other',
         routeBasePath: 'other',
         sidebarPath: './sidebarslogs.js',
-        // 其他选项
+        editUrl: 'https://github.com/fingtest6/STDL/blob/main/',
       },
     ],
     [
@@ -92,7 +80,7 @@ const config = {
         path: 'Disclaimers',
         routeBasePath: 'Disclaimers',
         sidebarPath: './sidebarslogs.js',
-        // 其他选项
+        editUrl: 'https://github.com/fingtest6/STDL/blob/main/',
       },
     ],
   ],
