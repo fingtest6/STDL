@@ -137,8 +137,8 @@ const config = {
                 to: '/docs/intro',
               },
               {
-                label: '调查记录',
-                to: '/logs/intro',
+                label: '设定',
+                to: '/setup/Abnormal',
               },
               {
                 label: '其他',
