@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '奇点科技文档库',
-  tagline: 'Singularity Technology Document Library',
+  title: '奇中之梦文档库',
+  tagline: 'Zero Dream Document Library',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -91,7 +91,7 @@ const config = {
       customCss: require.resolve('./src/css/custom.css'),
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '奇点科技文档库',
+        title: '奇中之梦文档库',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
